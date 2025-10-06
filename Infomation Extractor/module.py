@@ -21,12 +21,7 @@ Funções externas uteis para o funcionamento geral, funções de criações de 
 
 """
 
-"""
 
-Estrutura basica de um analisador estatico, feito por um amador em programação.
-Feito por @Nicholas9Dev no Github.
-
-"""
 
 
 class utilitary:
@@ -115,4 +110,5 @@ def IdentifyFlag(self, Flag):
         except Exception as e:
                 print("Flag Error")
                 self.MensageError("Passe as flags corretamente babaca.") 
+
 """
